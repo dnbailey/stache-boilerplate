@@ -1,4 +1,4 @@
 .DS_Store
+/sass
 .sass-cache
-*.sublime-project
-*.sublime-workspace
+config.rb
