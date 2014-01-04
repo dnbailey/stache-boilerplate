@@ -1,0 +1,32 @@
+.block {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+// Set Columns for Screens Greater Than Small
+@media only screen and (min-width: 30em) {
+  .c-max, .c-1-2, .c-1-3, .c-2-3, .c-1-4, .c-2-4, .c-3-4 {
+    display: block;
+    float:left;
+    padding-right: 1.6%;
+    &:last-child { padding-right: 0; }
+  }
+
+  // Column Sizes
+  .c-max { width: 100%; padding-right: 0; }
+  .c-1-2 { width: 49.2%; }
+  .c-1-3 { width: 32.26%; }
+  .c-2-3 { width: 64.52%; }
+  .c-1-4 { width: 23.8%; }
+  .c-2-4 { width: 47.6%; }
+  .c-3-4 { width: 71.4%; }
+
+  // Margins
+  .m-1-2 { margin-left: 50.8%; }
+  .m-1-3 { margin-left: 33.86%; }
+  .m-2-3 { margin-left: 66.12%; }
+  .m-1-4 { margin-left: 25.4%; }
+  .m-2-4 { margin-left: 50.8%; }
+  .m-3-4 { margin-left: 76.2%; }
+}
