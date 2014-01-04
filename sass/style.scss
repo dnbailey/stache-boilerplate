@@ -10,8 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 @import "compass";
-@import "compass/reset";
 
+@import "style/normalize";
 @import "style/base";
 @import "style/grid";
 @import "style/layout";
